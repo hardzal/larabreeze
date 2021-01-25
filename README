@@ -2,3 +2,9 @@
     - composer require laravel/breeze --dev
     - php artisan breeze:Install
     - npm install && npm run dev
+    - to activate forgot password using smtp gmail
+        -> activate 2-step verification gmail (https://www.google.com/landing/2step/)
+        -> Create App Password to be use by your system (https://security.google.com/settings/security/apppasswords)
+        -> select others name for app testing
+        -> use the generated password in env
+

@@ -1,0 +1,4 @@
+- Installasi Breeze -> berguna untuk alternatif dari laravel/ui (deprecated) / jetstream/fortify -> simple starting for authetication
+    - composer require laravel/breeze --dev
+    - php artisan breeze:Install
+    - npm install && npm run dev
